@@ -27,7 +27,7 @@ enum custom_keycodes {
 #define XXXXXXX KC_NO
 
 // Timing for MT custom keycodes
-#define TAPPING_TERM 150
+#define TAPPING_TERM 100
 static uint16_t start[1];
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
